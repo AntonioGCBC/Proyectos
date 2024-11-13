@@ -1,0 +1,202 @@
+body{
+    color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background-image: url(https://media1.tenor.com/m/ZdZnWutyhOMAAAAC/flames-fire.gif);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+.titulo{
+    background-image: url('FOTOS/Logo/Diseño\ sin\ título.gif');
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+    width: 100%;
+    height: 18%;
+   margin-top: -10%;
+}
+
+.titulo p{
+    font-family: fantasy;
+    color: azure;
+    font-size: 600%;
+    border: rgb(100, 9, 190) 5px double;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-top: 20px;
+    margin-top: 0px;
+        
+}
+
+.titulo p:hover{
+    font-family: fantasy;
+    color: goldenrod;
+    font-size: 600%;
+    border: goldenrod 5px double;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
+}
+
+.menu{
+    display: block;
+    position: fixed;
+    color: azure;
+    border: 2px solid rgb(111,10,214);
+    width: 150px;
+    padding-bottom: 10px;
+    margin-left:3.5%;
+    background-color: rgba(137, 43, 226, 0.308);
+    margin-top: 0%;
+    
+}
+
+body main div h1{
+    padding-top: -10px;
+    text-align: center;
+    padding-bottom: 10%;
+    size-adjust:initial;
+    margin-right: 1%;
+}
+
+body main div h1 a{
+    color: azure;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-decoration-line: none;
+    text-align: center; 
+}
+
+body main div h1 a:hover{
+    color: goldenrod;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-decoration-line: none;
+    text-align: center; 
+}
+
+body main div li{
+    list-style: none;
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+body main div li a{
+    color: azure;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-decoration-line: none;
+    text-align: center; 
+}
+
+body main div li a:hover{
+    color: goldenrod;
+}
+
+.trailer{
+    margin-top: 10%;
+    margin-left: 15%;
+}
+
+.info-peli{
+    margin-left: 60%;
+    margin-top: -30%;
+    width: 25%;
+}
+
+.info-peli table{
+    background-color: rgba(137, 43, 226, 0.308);;
+}
+
+.Sipnopsis{
+    margin-left: 17%;
+    width: 70%;
+    height: 70%;
+    padding-top: 0%;
+    padding-bottom: 2%;
+    margin-top: 5%;
+}
+
+form{
+        box-shadow: 2px #c1b8b8;
+}
+
+.valoracion{
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    margin-left: 60%;
+
+}
+
+.valoracion input {
+    position: absolute;
+    top: -100px;
+}
+
+.valoracion label {
+    float: right;
+    color: #c1b8b8;
+    font-size: 30px; 
+}
+
+.valoracion label:hover,
+.valoracion label:hover ~ label,
+.valoracion input:checked ~ label {
+    color: goldenrod;
+}
+
+.reseña{
+    margin-left: 30%;
+}
+
+.reseña textarea{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: medium;
+}
+
+footer{
+    background-color: rgb(83, 23, 139);
+    color: azure;
+    margin-bottom: -1%;
+}
+
+.Contacto{
+    margin-left: 10%;
+    margin-top: 5%;
+    padding-top: 1%;
+}
+
+.logosRRSS{
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 60%;
+    padding-right: -5%;
+}
+
+.logosRRSS a{
+    height: 100%;
+    width: 100%;
+    margin-top: -0.5%;
+}
+
+.logosRRSS a img{
+    height: 10%;
+    width: 10%;
+}
+
+.Contacto h3{
+    margin-top: -5%;
+}
+
+#Copyright p{
+    background-color: grey;
+    text-align: center;
+    width: 100%;
+}

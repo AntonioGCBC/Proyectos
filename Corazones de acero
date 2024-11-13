@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Corazones de acero</title>
+        <link rel="stylesheet" href="pelis.css" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <form action="#" method="post"></form>
+    </head>
+    <body>
+        <header>
+            <div class="titulo">
+                <p>Tell Me Movie</p>
+            </div>
+        </header>
+        <main>
+            <div class="menu">
+                <h1><a href="index.html" class="menu_link"> Películas</a></h1>
+                <li><a href="Newsletter.html" class="menu_link">Newsletter</a></li>
+                <li><a href="Register.html" class="menu_link">Regístrate</a></li>
+                <li><a href="login.html" class="menu_link">Login</a></li>
+            </div>
+            <div class="trailer">
+                <video src="TRAILERS/300 - Official Trailer [HD].mp4" preload="auto", 
+                poster="FOTOS/Películas/Corazones de acero.PNG" width="810" height="540" controls></video>
+            </div>
+            <div class="info-peli">
+                <h1>Información de la Película</h1>
+                  <table>
+        <tr>
+            <th>Información</th>
+            <th>Detalles</th>
+        </tr>
+        <tr>
+            <td>Título original</td>
+            <td>Fury</td>
+        </tr>
+        <tr>
+            <td>Director</td>
+            <td>David Ayer</td>
+        </tr>
+        <tr>
+            <td>Escritor</td>
+            <td>David Ayer</td>
+        </tr>
+        <tr>
+            <td>Fecha de estreno</td>
+            <td>17 de octubre de 2014 (EE. UU.)</td>
+        </tr>
+        <tr>
+            <td>Protagonistas</td>
+            <td>Brad Pitt, Shia LaBeouf, Logan Lerman, Michael Peña, Jon Bernthal</td>
+        </tr>
+        <tr>
+            <td>Género</td>
+            <td>Bélico, Acción, Drama</td>
+        </tr>
+        <tr>
+            <td>Duración</td>
+            <td>134 minutos</td>
+        </tr>
+        <tr>
+            <td>Productora</td>
+            <td>Columbia Pictures, QED International, LStar Capital, Huayi Brothers, Le Grisbi Productions</td>
+        </tr>
+    </table>
+            </div>
+            <form>
+                <p class="valoracion">
+                    <input id="radio1" type="radio" name="estrellas" value="5">
+                    <label for="radio1">★</label>
+                    <input id="radio2" type="radio" name="estrellas" value="4">
+                    <label for="radio2">★</label>
+                    <input id="radio3" type="radio" name="estrellas" value="3">
+                    <label for="radio3">★</label>
+                    <input id="radio4" type="radio" name="estrellas" value="2">
+                    <label for="radio4">★</label>
+                    <input id="radio5" type="radio" name="estrellas" value="1">
+                    <label for="radio5">★</label>
+                </p>
+            </form>
+            <div class="Sipnopsis">
+                <p>
+                    <h3><strong>Corazones de acero</strong></h3>
+                </p>
+                <p>    
+                    Abril de 1945, la guerra está a punto de acabar. Al mando del veterano sargento Wardaddy (Brad Pitt), una brigada de cinco soldados americanos a bordo de un tanque
+                    -el Fury- ha de luchar contra un ejército nazi al borde de la desesperación, pues los alemanes saben que su derrota estaba ya cantada por aquel entonces.
+                </p>    
+            </div>
+            <div class="reseña">
+                <form>
+                    <h3>¿Qué tal te ha parecido la película?</h3>
+                    <textarea name="reseña" id="comentario" cols="100" rows="10"></textarea>
+                    <br>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            </main>
+            <footer>
+            <div class="Contacto">
+                <div class="logosRRSS">
+                    <a href="https://www.instagram.com/">
+                        <img src="FOTOS/Logo/instagram.png" alt="logo instagram"> 
+                    </a>
+                    <a href="https://www.facebook.com/?locale=es_ES">
+                        <img src="FOTOS/Logo/facebook.png" alt="logo facebook">
+                    </a>
+                    <a href="https://twitter.com/?lang=es">
+                        <img src="FOTOS/Logo/gorjeo.png" alt="logo twitter">
+                    </a>
+                    </div>
+                <h3>+34 910 000 000</h3>
+                <p>Email: tellmemovie@outlook.com</p>
+            </div>
+            <div id="Copyright">
+                <p>© 2024 Copyright: Tell me Movie</p>
+            </div>
+            </footer>

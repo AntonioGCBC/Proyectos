@@ -1,0 +1,225 @@
+body{
+    background-image: url(https://media1.tenor.com/m/ZdZnWutyhOMAAAAC/flames-fire.gif);
+    color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    
+}
+
+.titulo{
+
+    background-image: url('FOTOS/Logo/Diseño\ sin\ título.gif');
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 18%;
+}
+
+.titulo p{
+    font-family: fantasy;
+    color: azure;
+    font-size: 600%;
+    border: rgb(100, 9, 190) 5px double;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-top: 20px;
+    margin-top: 0px;
+}
+
+.titulo p:hover{
+    font-family: fantasy;
+    color: goldenrod;
+    font-size: 600%;
+    border: goldenrod 5px double;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.menu{
+    color: azure;
+    border: 2px solid rgb(111,10,214);
+    width: 150px;
+    padding-bottom: 10px;
+    margin-left: 2.5%;
+    background-color: rgba(137, 43, 226, 0.308);
+    margin-top: 5%;
+
+}
+
+
+.registro{
+    color: azure;
+    border: 2px solid rgb(111,10,214);
+    width: 20%;
+    padding-bottom: 10px;
+    margin-left: 41%;
+    margin-right: auto;
+    background-color: rgba(137, 43, 226, 0.308);
+    margin-top: -10%;
+    margin-bottom: 15.7%;
+}
+
+.registro table{
+    padding: 15px;
+}
+
+.registro a{
+    color: azure;
+}
+
+.registro p{
+    margin-top: -15px;
+    padding-left: 15px;
+}
+
+#login{
+    color: azure;
+}
+
+#login:hover{
+    color: goldenrod;
+}
+
+body main div h1{
+    padding-top: -10px;
+    text-align: center;
+    padding-bottom: 10%;
+    size-adjust:initial;
+    margin-right: 1%;
+}
+
+body main div li{
+    list-style: none;
+    text-align: left;
+    padding-bottom: 10%;
+}
+
+body main div li a{
+    color: azure;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-decoration-line: none;
+    text-align: left;    
+}
+
+body main div li a:hover{
+    color: goldenrod;
+}
+
+.lista{
+    margin-right: 25%;
+}
+
+.button{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: azure;
+    font-size: 24px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.1s;
+}
+.button:hover{
+    background: linear-gradient(rgb(111,10,214),rgb(75, 23, 219),rgb(218, 165, 32));
+    box-shadow: 0 0 10px rgb(255, 255, 255), 0 0 40px;
+    transition-delay: 0.2s;
+}
+#span1{
+    top: 0; 
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(rgb(218, 165, 32),rgb(218, 165, 32), rgb(111,10,214));
+}
+
+.button:hover #span1{
+    left: 100%;
+    transition: 0.5s;
+}
+
+#span3{
+    bottom: 0;
+    right: -100%;
+    height: 2px;
+    background: linear-gradient(rgb(218, 165, 32),rgb(218, 165, 32), rgb(111,10,214));
+}
+
+.button:hover #span3{
+    right: 100%;
+    transition: 0.5s;
+}
+
+#span2{
+    right: 0; 
+    top: -100%;
+    height: 100%;
+    width: 2px;
+    background: linear-gradient(rgb(218, 165, 32),rgb(218, 165, 32), rgb(111,10,214));
+}
+.button:hover #span2{
+    top: 100%;
+    transition: 0.5;
+    transition-delay: 0.1s;
+}
+
+#span4{
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(rgb(218, 165, 32),rgb(218, 165, 32),rgb(111,10,214));
+}
+
+.button:hover #span4{
+    top: 100%;
+    transition: 0.5s;
+    transition-delay: 0.1S;
+}
+
+footer{
+    background-color: rgb(83, 23, 139);
+    color: azure;
+    margin-bottom: -1%;
+}
+
+.Contacto{
+    margin-left: 10%;
+    margin-top: 5%;
+    padding-top: 1%;
+}
+
+.logosRRSS{
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 60%;
+    padding-right: -5%;
+}
+
+.logosRRSS a{
+    height: 100%;
+    width: 100%;
+    margin-top: -0.5%;
+}
+
+.logosRRSS a img{
+    height: 10%;
+    width: 10%;
+}
+
+.Contacto h3{
+    margin-top: -5%;
+}
+
+#Copyright p{
+    background-color: grey;
+    text-align: center;
+    width: 100%;
+}
